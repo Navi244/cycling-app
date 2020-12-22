@@ -8,6 +8,8 @@ import PersonalRoute from './PersonalRoute'
 import GroupRoute from './GroupRoute'
 import Statistics from './Statistics'
 import PersonalStats from './PersonalStats'
+import GroupStats from './GroupStats'
+import Training from './Training'
 
 function Cycling() {
   return (
@@ -20,8 +22,10 @@ function Cycling() {
       <Route exact path="/route" component={Routes}></Route>
       <Route exact path="/ruta-personal" component={PersonalRoute}></Route>
       <Route exact path="/ruta-en-grupo" component={GroupRoute}></Route>
+      <Route exact path="/entrenamiento" component={Training}></Route>
       <Route exact path="/estadisticas" component={Statistics}></Route>
       <Route exact path="/estadisticas-personales" component={PersonalStats}></Route>
+      <Route exact path="/estadisticas-en-grupo" component={GroupStats}></Route>
     </Switch>
     );
 }

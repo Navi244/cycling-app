@@ -8,7 +8,7 @@ const ServiceSelectHome = () => {
     <div className="container">
       <div className="row">
         <div className="col section-hm"><p><Link to="/estadisticas">Estadísticas</Link></p></div>
-        <div className="col section-hm"><p>Entrenamiento</p></div>
+        <div className="col section-hm"><p><Link to="/entrenamiento">Entrenamiento</Link></p></div>
         <div className="w-100"></div>
         <div className="col section-hm"><p>Luz</p></div>
         <div className="col section-hm"><p>Alarma</p></div>

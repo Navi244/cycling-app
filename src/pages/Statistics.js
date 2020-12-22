@@ -10,7 +10,7 @@ const Statistics = () => {
       <CenterLargeButtons 
         linkPersonal="/estadisticas-personales"
         FirstButtonLabel="Estadísticas personales"
-        linkGroup="/"
+        linkGroup="/estadisticas-en-grupo"
         SecondButtonLabel="Estadísticas de amigos"
       />
       <Footer pie="Es un pie de página"/>

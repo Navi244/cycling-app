@@ -1,7 +1,7 @@
 import React from 'react'
-import './styles/personalStatsBody.css'
+import './styles/groupStatsBody.css'
 
-const PersonalStatsBody = () => {
+const GroupStatsBody = () => {
   return(
     <div className="personal-stats-body">
       <div className="container">
@@ -55,4 +55,4 @@ const PersonalStatsBody = () => {
   )
 }
 
-export default PersonalStatsBody
+export default GroupStatsBody

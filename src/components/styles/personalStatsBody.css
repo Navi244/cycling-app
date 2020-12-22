@@ -1,6 +1,22 @@
+.personal-stats-section {
+  border: 1px solid grey;
+  padding: 8px;
+  margin: 0;
+  border-radius: 10px;
+}
+.personal-stats-container {
+  padding: 10px;
+  border-radius: 15px;
+}
 .personal-stats-body {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background: #EFEFEF;
   min-height: 88vh;
+}
+
+.section-stats {
+  background: #ffffff;
+  margin: 5px 0;
+  border-radius: 10px;
 }
