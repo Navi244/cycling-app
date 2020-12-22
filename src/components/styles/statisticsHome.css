@@ -1,0 +1,21 @@
+.statistic-home {
+  background: #ffffff;
+  margin: 1rem;
+  border-radius: 12px;
+  box-shadow: 0px 0px 3px #ECECEC;
+}
+.statistic-home p {
+  text-align: center;
+}
+
+.statistic-data-home {
+  padding-left: 0;
+}
+.statistic-home-diatance, .statistic-home-average-distance {
+  background: #ffffff;
+  margin: 1rem;
+  border-radius: 3px;
+  box-shadow: 0px 0px 3px #ECECEC;
+  text-align: center;
+  font-size: 14px;
+}

@@ -1,0 +1,12 @@
+.section-hm {
+  background: #fff;
+  margin: 0 1rem;
+  border-radius: 13px;
+}
+.section-hm p {
+  margin-top: 1rem;
+  font-size: 14px;
+}
+.w-100 {
+  margin: 0.6rem 0;
+}
